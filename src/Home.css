@@ -1,0 +1,59 @@
+body {
+  background-image: url('./background.webp');
+  background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    /* z-index: +1; */
+    /* margin-top: 5rem; */
+}
+
+.punch-line {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 5rem;
+}
+
+.first-line {
+  font-size: 2em;
+}
+
+.bitcoin {
+  height: 10rem;
+  width: 10rem;
+}
+
+.Logo {
+  height: 10rem;
+  width: 10rem;
+}
+
+.Icp {
+  height: 10rem;
+  width: 10rem;
+}
+
+.tag-line {
+  display:flex;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* display:grid;
+  grid-template-rows: 50px 50px; */
+}
+
+/* .partner {
+  display: flex;
+  flex-direction: column;
+} */
+
+.main-line {
+  font-size: 5em;
+}
+
+.friend-line {
+  display:flex;
+  justify-content: center;
+}
+
