@@ -50,9 +50,9 @@ body {
     text-decoration: none;
   }
   
-  .logo {
-    height: 2em;
-    width: 2em;
+  .logo-in-nav {
+    height: 4em;
+    width: 4em;
   }
 
   /* .navbar-right {

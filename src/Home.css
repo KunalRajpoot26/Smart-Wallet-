@@ -12,7 +12,7 @@ body {
 .punch-line {
   display: flex;
   justify-content: center;
-  
+  flex-direction: row;
   margin-top: 5rem;
 }
 
@@ -25,7 +25,7 @@ body {
   width: 10rem;
 }
 
-.Logo {
+.logo-in-home {
   height: 10rem;
   width: 10rem;
 }
@@ -37,6 +37,7 @@ body {
 
 .tag-line {
   display:flex;
+  width: 50%;
   /* justify-content: center; */
   /* flex-direction: column; */
   /* display:grid;
@@ -49,7 +50,7 @@ body {
 } */
 
 .main-line {
-  font-size: 5em;
+  font-size: 6em;
 }
 
 .friend-line {

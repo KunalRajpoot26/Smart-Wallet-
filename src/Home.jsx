@@ -2,17 +2,17 @@ import React from "react";
 import './Home.css';
 import Bitcoin from './Bitcoin.webp';
 import Icp from './icp.webp';
-import Logo from './logo.webp';
+import Logohome from './logo.webp';
 
 function Home() {
 return (
     <>
         <div className="punch-line"><h2 className="first-line">The etherium that'll make you places</h2></div>
         <div className="tag-line">
-            <div className="Your"><h1 className="main-line">Your</h1></div>
-            <img className="Logo" src={Logo}></img>
-            <div className="trusted"><h1 className="main-line">trusted</h1></div>
-            <div className="partner"><h1 className="main-line">partner</h1></div>
+            <h1 className="main-line">Exchange your Crypto in secure and hassle free way!</h1>
+        </div>
+        <div className="logoback">
+        <img className="logo-in-home" src={Logohome}></img>
         </div>
         <div className="bitcoin-image">
                 <img className="bitcoin" src={Bitcoin}></img>

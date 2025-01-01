@@ -1,14 +1,14 @@
 import React from "react";
 import './Navbar.css';
-import Logo from './logo.webp';
+import Logonav from './logo.webp';
 
 const Navbar = () => {
     return (
         <>
             <nav className="navbar">
             <div className="navbar-left">
-            <a  className="logo">
-              <img className='logo' src={Logo}></img>
+            <a  className="logo-withname">
+              <img className='logo-in-nav' src={Logonav}></img>
             enzo
             </a>
             </div>
